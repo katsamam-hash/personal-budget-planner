@@ -1,0 +1,108 @@
+.summary-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-popup {
+    background-color: #373f47; 
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    width: clamp(25rem, 80%, 35rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    position: relative;
+    color: #ddd;    
+    max-height: 90vh; 
+    overflow-y: auto; 
+}
+
+.summary-popup h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #83b3d1; 
+}
+
+.filter-type-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-type-buttons button {
+    background-color: #2A323C; 
+    color: #ddd;
+    border: 1px solid #56585a;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.filter-type-buttons button:hover {
+    background-color: #56585a;
+}
+
+.filter-type-buttons button.active {
+    background-color: #83b3d1; 
+    color: #0f1319;
+    font-weight: bold;
+}
+
+.filter-select-wrapper {
+    width: 100%;  
+    max-height: 250px; 
+    overflow-y: auto; 
+}
+
+.filter-select-dropdown {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0f1319; 
+    color: #ddd;
+    border: 1px solid #56585a;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-sizing: border-box; 
+    height: auto; 
+}
+
+
+.total-summary-result {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    color: #ddd;
+}
+
+.total-summary-result span {
+    color: #FFC300; 
+}
+
+
+.close-summary-popup {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.close-summary-popup i {
+    font-size: 2rem;
+    color: #ddd;
+}
