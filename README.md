@@ -1,16 +1,29 @@
-# React + Vite
+Project name: Personal Budget Planner (pBp)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Personal Budget Planner (pBp) is a web application designed to help individuals manage and analyze their daily, monthly, and yearly expenses without the complexity of traditional accounting software. It offers a clear, intuitive way to record spending, categorize expenses, and track financial summaries.
 
-Currently, two official plugins are available:
+This project is a modern web application built with React and bundled using Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To RUN THIS APPLICATION on your local machine, follow these steps. You will need Node.js and npm (Node Package Manager) installed.
 
-## React Compiler
+1. Clone the Repository
+   Open your terminal (e.g., Git Bash) and run the following command to download the code:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   git clone https://github.com/katsamam-hash/personal-budget-planner.git
 
-## Expanding the ESLint configuration
+2. Navigate to the Project Folder
+   Change your current directory to the newly cloned project folder:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   cd personal-budget-planner
+
+3. Install Dependencies
+   Install all the necessary project libraries and packages (listed in package.json):
+
+   npm install
+
+4. Start the Application
+   Start the local development server. This will compile the React code and launch the app in your browser:
+
+   npm run dev
+
+The terminal will usually provide a local address (e.g., http://localhost:5173/). Open this address in your web browser to view the application.
