@@ -88,7 +88,8 @@ const Auth = ({ onAuthSuccess }) => {
             {message && <div className="auth-success-message">{message}</div>} 
             
             <button className="toggle-auth-btn" onClick={toggleMode} disabled={isLoading}>
-                {isSignIn ? 'Δεν έχετε λογαριασμό; Εγγραφή' : 'Έχετε λογαριασμό; Σύνδεση'}
+                {isSignIn ? (
+                    <>Δεν έχετε λογαριασμό; <span className="large-word"> Εγγραφή </span></> ): (<>Έχετε λογαριασμό;<span className="large-word"> Σύνδεση</span></>)}
             </button>
         </div>
     );

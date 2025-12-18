@@ -34,16 +34,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #a0a3a6;
 }
 
-.calendar h3 {
+.calendar-title-wrapper h3 {
     text-align: center;
+    font-size: 2rem;
+    color: #a3c4e0;
 }
 
 .heading{
     font-family: 'Times New Roman', Times, serif;
     font-size: clamp(4rem, 3.8cqi, 7rem);
-    color: #060000;
+    color: #a0a3a6;
     letter-spacing: 0.3rem;
     padding-left: 0;
     text-align: center;

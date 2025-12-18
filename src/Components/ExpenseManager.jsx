@@ -97,7 +97,7 @@ const ExpenseManager = ({ selectedDate, monthsOfYear, onSwitchToCategories, shou
     const handleExpenseSubmit = () => {
         
         if (categories.length === 0 || !selectedCategory) {
-            setExpenseError("Παρακαλώ επιλέξτε μια κατηγορία.");
+            setExpenseError("Παρακαλώ δημιουργήστε μια κατηγορία εξόδων.");
             return;
         }
         

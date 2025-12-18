@@ -18,12 +18,13 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem; 
+    gap: 1.5rem;
 }
 
 .heading {
     font-family: 'Times New Roman', Times, serif;
     font-size: clamp(4rem, 3.8cqi, 7rem);
-    color: #060000;
+    color: #a3c4e0;
     letter-spacing: 0.3rem;
     padding-left: 0;
     text-align: center;
@@ -31,7 +32,7 @@
 
 .auth-title-wrapper h3 {
     text-align: center;
-    color: #ddd; 
+    color: #a3c4e0; 
     margin-top: -1rem; 
     font-size: clamp(1.2rem, 1cqi, 1.8rem);
 }
@@ -109,14 +110,20 @@
 .toggle-auth-btn {
     background: none;
     border: none;
-    color: #83b3d1;
+    color: #ddd;
     cursor: pointer;
     margin-top: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-decoration: underline;
     transition: color 0.3s;
 }
 
 .toggle-auth-btn:hover:not(:disabled) {
     color: #a3c4e0;
+}
+
+.large-word {
+    font-size: 1.7rem; 
+    font-weight: bold;
+    color: #ddd;  
 }
