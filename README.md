@@ -27,9 +27,9 @@ To RUN THIS APPLICATION on your local machine, follow these steps. You will need
    npm run dev
 
 The terminal will usually provide a local address (e.g., http://localhost:5173/). Open this address in your web browser to view the application.
-Application Interface
+## Application Interface
 
-Authentication & Navigation
+### Authentication & Navigation
 <table border="0">
   <tr>
     <td><p align="center"><b>Login & Registration</b></p><img src="screenshots/signInAndSignUp.png" width="400"></td>
