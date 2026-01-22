@@ -27,3 +27,28 @@ To RUN THIS APPLICATION on your local machine, follow these steps. You will need
    npm run dev
 
 The terminal will usually provide a local address (e.g., http://localhost:5173/). Open this address in your web browser to view the application.
+## Application Interface
+
+### Authentication & Navigation
+<table border="0">
+  <tr>
+    <td><p align="center"><b>Login & Registration</b></p><img src="screenshots/signInAndSignUp.png" width="400"></td>
+    <td><p align="center"><b>Main Calendar View</b></p><img src="screenshots/calendarNavigation.png" width="400"></td>
+  </tr>
+</table>
+
+### Expense & Category Management
+<table border="0">
+  <tr>
+    <td><p align="center"><b>Managing Categories</b></p><img src="screenshots/createCategory.png" width="400"></td>
+    <td><p align="center"><b>Adding Expenses</b></p><img src="screenshots/createExpense.png" width="400"></td>
+  </tr>
+</table>
+
+### Data Analysis & Reports
+<table border="0">
+  <tr>
+    <td><p align="center"><b>Daily Reports</b></p><img src="screenshots/dailyExpenses.png" width="400"></td>
+    <td><p align="center"><b>Financial Summaries</b></p><img src="screenshots/summaryView.png" width="400"></td>
+  </tr>
+</table>
